@@ -1,0 +1,50 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:root{
+    --clr-primary:#ff713d;
+    --clr-primary-light:#fedace;
+    --clr-grey:grey;
+    --clr-grey-light:rgb(191, 182, 182);
+}
+body {
+  background-color: rgb(197, 184, 184);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.group {
+  width: 300px;
+  margin: 50px auto;
+  display: block;
+
+  font-size: 0px;
+}
+.group .group__btn {
+  font-size: 12px;
+  padding: 6px;
+  width: 33.33%;
+  border-radius: 0px;
+  border: 1px solid #ff713d;
+  color: var(--clr-primary);
+  background-color: var(--clr-primary-light);
+  cursor: pointer;
+}
+.group .group__btn.active{
+    background-color: var(--clr-grey-light);
+    color: var(--clr-grey);
+}
+.group__btn:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.group__btn:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.group__btn:nth-child(2) {
+  border-left: 0px;
+  border-right: 0px;
+}
