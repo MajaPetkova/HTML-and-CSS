@@ -42,7 +42,7 @@
   .card .body .body__release .release__name,
   .card .body .body__release .release__date {
     margin: 0;
-    font-size: 14;
+    font-size: 16px;
   }
   .card .body .body__release .release__name {
     font-weight: bold;
