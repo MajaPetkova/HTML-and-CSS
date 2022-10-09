@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  /* margin: 0; */
+}
+.main {
+  padding: 2rem;
+  border: 2px solid black;
+  position: relative;
+  height: 400px;
+}
+.item {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  position:absolute;
+  width: 100px;
+  height: 100px;
+}
+.main__first {
+  background-color: rgb(238, 183, 117);
+  top: 10px;
+  left: 10px;
+ 
+}
+.main__second {
+  background-color: lightcoral;
+  top: 50px;
+  left: 50px;
+  
+}
+.main__third {
+  background-color: lightgreen;
+  top: 100px;
+  left: 100px;
+  z-index: -1;
+}
+.sub__first {
+  background-color: lightsalmon;
+  top: 150px;
+  left: 150px;
+}
+.sub__second {
+  background-color: lightseagreen;
+  top: 200px;
+  left: 200px;
+}
+.sub__third{
+background-color: lightskyblue;
+top: 250px;
+left: 250px;
+}
