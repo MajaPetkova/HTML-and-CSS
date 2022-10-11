@@ -1,0 +1,37 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+* {
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+li a {
+  border-radius: 50%;
+  background-color: rgb(222, 210, 210);
+  padding: 15px;
+}
+li i {
+  color: rgba(63, 52, 52, 0.741);
+}
+
+.fb:hover i {
+  background-color: rgb(46, 116, 247);
+  border-radius: 50%;
+}
+.twit i:hover {
+  background-color: blue;
+}
+.google i:hover {
+  background-color: red;
+}
+.link i:hover {
+  background-color: rgb(36, 88, 77);
+}
+.instagram i:hover {
+  background-color: rgb(55, 140, 121);
+}
