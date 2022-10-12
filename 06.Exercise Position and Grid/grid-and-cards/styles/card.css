@@ -1,10 +1,11 @@
 .card {
   background-color: white;
   border-radius: 12px;
-  max-width: 400px;
+  /* max-width: 400px; */
   /* height: 370px; */
-  margin: 0 auto;
   overflow: hidden;
+  box-shadow: -3px 4px 24px 5px rgba(0,0,0,0.75);
+  /* margin: 10px auto; */
 }
 
 /* Card style Classic */
@@ -143,4 +144,9 @@ position: absolute;
   color: white;
 }
 
-
+/* Panel Component */
+.panel {
+  /* max-width: 400px; */
+  border-radius: 14px;
+  /* margin: 10px auto; */
+}
