@@ -11,6 +11,7 @@
 /* Card style Classic */
 .card .head {
   position: relative;
+  
 }
 .card .head .head__tag {
   position: absolute;
@@ -95,7 +96,7 @@
 
 /* Card BG Image */
 .card.card--bg-img {
-  min-height: 300px;
+  /* min-height: 300px; */
   position: relative;
 }
 .card.card--bg-img .card__bg-img {
