@@ -1,8 +1,11 @@
 .layout {
+    max-width: 1350px;
+    margin: 0 auto;
+    height: 750px;
   padding: 22px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 200px);
+  grid-template-rows: repeat(5, 140px);
   gap: 14px;
   grid-template-areas:
     "card-top card-mid . img-top img-top"

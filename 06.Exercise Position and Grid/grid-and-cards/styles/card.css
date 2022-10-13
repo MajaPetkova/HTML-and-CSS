@@ -1,4 +1,5 @@
 .card {
+  
   position: relative;
   background-color: white;
   border-radius: 12px;
@@ -38,13 +39,14 @@
 }
 .card .content {
   padding: 18px;
-  height: 50%;
+  height: 60%;
 }
 .card .content .content__title {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+font-size: 20px;
 }
 .card .content .content__description {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   color: rgb(102, 102, 102);
 }
 .card .content.content--icon {
@@ -58,7 +60,7 @@
   position: absolute;
   right: 18px;
   /* top: 22px; */
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
   font-size: 32px;
   color: rgb(102, 102, 102);
@@ -91,7 +93,7 @@ opacity: 0;
   background-color: rgb(36, 71, 111);
 }
 .card.card--read-more:hover .content .content__btn{
-bottom: 18px;
+bottom: 0px;
 opacity: 1;
 }
 /* .card.card--read-more .content::before{
@@ -106,9 +108,9 @@ opacity: 1;
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 50%,
-    rgba(255, 255, 255, 0.3) 73%
+    rgba(255, 255, 255, 0.3) 90%
   );
-  bottom: 0;
+  bottom:-90px;
   left: 0px;
 }
 
@@ -129,6 +131,7 @@ opacity: 1;
 .card.card--bg-img .content {
   position: relative;
   z-index: 1;
+  color: green;
 }
 .card.card--bg-img .content {
   top: 200px;
@@ -159,7 +162,7 @@ opacity: 1;
 }
 .card.card--bg-img .content .content__title,
 .card.card--bg-img .content .content__desc {
-  color: white;
+  /* color: white; */
 }
 
 /* Panel Component */
