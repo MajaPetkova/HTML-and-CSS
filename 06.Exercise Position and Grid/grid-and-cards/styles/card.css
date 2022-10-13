@@ -160,10 +160,7 @@ opacity: 1;
   font-size: 22px;
   cursor: pointer;
 }
-.card.card--bg-img .content .content__title,
-.card.card--bg-img .content .content__desc {
-  /* color: white; */
-}
+
 
 /* Panel Component */
 .panel {
