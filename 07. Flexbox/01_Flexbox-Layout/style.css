@@ -24,11 +24,12 @@ footer {
   flex-basis: 100%;
 }
 main {
-  width: calc(70% - 20px);
-    height: 200px;
+  flex:8 1 20rem;
+  /* width: calc(70% - 20px);
+    height: 200px; */
 }
 aside{
-  /* flex-basis: 2 1 20rem; */
-  width: 30%;
-  height: 200px;
+  flex: 2 1 20rem;
+  /* width: 30%;
+  height: 200px; */
 }
