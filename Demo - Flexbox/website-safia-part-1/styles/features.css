@@ -20,10 +20,35 @@
     gap:42px 32px;
 }
 #features .feat{
-  border: 1px solid var(--clr-neutral-700);
+  border: 2px solid var(--clr-neutral-700);
   border-radius: 16px;
   padding: 32px;
+  position: relative;
+  top: 0px;
 }
+#features .feat:hover{
+    top: -8px;
+    box-shadow: 0px 35px 45px rgba(18, 35, 95, 0.45);
+    transition: all 300ms ease-in-out;
+}
+#features .feat::after{
+  content: "";
+  position: absolute;  
+  bottom:-100%;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-neutral-800);
+  opacity: 0;
+  z-index: -1;
+  overflow: hidden;
+  transition: all 400ms ease-in-out, opacity 250ms ease-in-out;
+}
+#features .feat:hover::after{
+    bottom:0px;
+    opacity: 1;
+}
+
 #features .feat .feat__icon{
 width: 48px;
 height: 48px;
