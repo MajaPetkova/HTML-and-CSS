@@ -3,7 +3,7 @@
 @import url('clients-section.css');
 
 body{
-    background-color: var(--clr-bg);
+    background-color: var(--clr-helper-3);
   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -14,6 +14,8 @@ body{
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+    /* padding: 100px 50px; */
+    padding: 48px 24px;
 }
 .section__title,
 .section__desc{
@@ -23,12 +25,15 @@ body{
     margin-right: auto;
 }
 .section__title{
-    margin-bottom: 30px;
-    font-size: 46px;
+    /* margin-bottom: 30px; */
+    margin-bottom: 16px;
+    /* font-size: 46px; */
+    font-size: 32px;
     color: var(--clr-black);
 }
 .section__desc{
     margin-bottom: 50px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 16px;
     color: var(--clr-grey);
 }
