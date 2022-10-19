@@ -1,0 +1,36 @@
+#business{
+    padding: 48px 24px;
+}
+#business .business__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+#business .content,
+#business .row__img__wrapper{
+    width: 50%;
+}
+#business .content .content__title{
+  font-size: 46px;  
+  color: var(--clr-black);
+  margin-bottom: 30px;
+}
+#business .content .content__desc{
+    font-size: 20px;
+    color: var(--clr-grey);
+    margin-bottom: 30px;
+}
+#business .content .content__btn{
+    color: var(--clr-white);
+    background-color: var(--clr-primary);
+    border: none;
+    box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.65);
+    padding: 15px 30px;
+    width: 190px;
+    text-align: center;
+    cursor: pointer;
+}
+#business .row__img__wrapper .row__img{
+    width: 30%;
+}
