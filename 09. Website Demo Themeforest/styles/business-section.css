@@ -27,7 +27,7 @@
   color: var(--clr-grey);
   margin-bottom: 30px;
 }
-#business .content .content__btn {
+/* #business .content .content__btn {
   color: var(--clr-white);
   background-color: var(--clr-primary);
   border: none;
@@ -36,7 +36,7 @@
   width: 190px;
   text-align: center;
   cursor: pointer;
-}
+} */
 #business .row__img__wrapper {
   height: 540px;
   position: relative;
