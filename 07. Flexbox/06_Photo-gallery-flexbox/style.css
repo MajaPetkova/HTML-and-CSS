@@ -23,11 +23,8 @@ body {
    height: 30rem;
   display: flex;
   justify-content: center;
-  align-items: center; 
-  /* text-align: center; */
-  
+  align-items: center;   
 }
 img{
     width: 93%;
-
 }
