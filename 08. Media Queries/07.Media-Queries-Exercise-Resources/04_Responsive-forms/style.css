@@ -1,0 +1,103 @@
+
+body {
+  width: 400px;
+  margin-top: 80px;
+  margin-left: calc(50% - (400px / 2));
+  border: 1px solid;
+  padding: 20px 20px;
+  font-family: Helvetica, sans-serif;
+}
+fieldset {
+  background-color: rgb(235, 235, 230);
+  box-shadow: 10px 10px 55px 0px rgba(0, 0, 0, 0.25);
+}
+legend {
+   margin-left: -14px;
+  background-color: rgb(235, 235, 230);
+  box-shadow: 10px 10px 55px 0px rgba(0, 0, 0, 0.25);
+/* margin-left: 0px; */
+  border: solid 1px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 90px;
+  text-align: start;
+}
+.block {
+  margin-top: 25px;
+}
+.block span i {
+  margin-left: -250px;
+}
+label {
+  font-weight: bold;
+}
+input {
+  height: 25px;
+  width: 250px;
+}
+button {
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: black;
+  color: rgb(216, 209, 209);
+  border: none;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    width: 400px;
+    margin-left: calc(50% - (350px / 2));
+  }
+  fieldset {
+    border: solid 4px grey;
+    background-color: rgb(205, 236, 226);
+  }
+  input {
+    height: 30px;
+    width: 320px;
+  }
+  .block span i {
+    margin-left: -310px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    width: 400px;
+    margin-left: calc(50% - (400px / 2));
+  }
+  fieldset {
+    border: solid 4px grey;
+    /* background-color: rgb(99, 158, 139); */
+  }
+  input {
+    height: 30px;
+    width: 320px;
+  }
+  .block span i {
+    margin-left: -310px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 940px) {
+    body{
+        border: none;
+    }
+}
+@media screen and (min-width: 941px) and (max-width: 1025px) {
+    body{
+        border: none;
+    }
+    fieldset {
+        background-color: rgb(235, 235, 230);
+        box-shadow: 10px 10px 55px 0px rgba(0, 0, 0, 0.25);
+        border-left: none;
+    border-bottom: none;}
+      
+}
