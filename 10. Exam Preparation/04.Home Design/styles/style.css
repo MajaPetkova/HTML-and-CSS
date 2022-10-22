@@ -1,21 +1,70 @@
-@import url('reset.css');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
 
+body {
+  font-family: "Courgette", cursive;
+  background-color: rgb(226, 226, 226);
 
-body{
-    font-family: 'Courgette', cursive;
 }
 .titles {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
-.titles .title{
-    font-size: 48px;
-    letter-spacing: 2px;
+.titles .title {
+  font-size: 48px;
+  letter-spacing: 2px;
 }
-.titles .sub-title{
+.titles .sub-title {
+  color: red;
+  margin-right: -300px;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.cards .card {
+  border: 1px solid black;
+  border-radius: 16px;
+  background-color: white;
+  width: 400px;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+.cards .card .card__img {
+  margin-bottom: 25px;
+}
+.cards .card-content .content__title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+.cards .card-content .content__divider {
+  width: 90%;
+  height: 2px;
+  background-color: red;
+  margin-left: 5%;
+  margin-bottom: 25px;
+}
+.cards .card-content .content__desc {
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.cards .card-content .content__btn {
+    margin-left: 135px;
+}
+.cards .card-content .content__link{
+    margin-bottom: 25px;
+}
+.cards .card-content .content__btn i{
     color: red;
- margin-right: -300px;
- font-size: 26px;
-
+    background-color: white;
+    font-size: 18px;
+    margin-left: 10px;
 }
