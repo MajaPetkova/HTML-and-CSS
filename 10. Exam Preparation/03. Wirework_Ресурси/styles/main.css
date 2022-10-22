@@ -156,3 +156,28 @@ letter-spacing: 1px;
     color: var(--clr-grey-text);
     font-size: 20px;
 }
+
+/* Subscribe */
+
+#subscribe{
+    background-color: var(--clr-white);
+    text-align: center;
+}
+#subscribe .title{
+    font-size: 42px;
+}
+
+#subscribe .desc{
+    font-size: 22px;
+    /* color: var(--clr-grey-text); */
+    color: var(--clr-grey);
+    margin-bottom: 2rem;
+}
+#subscribe .btn{
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    border: none;
+    padding: 1rem 3.5rem;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
