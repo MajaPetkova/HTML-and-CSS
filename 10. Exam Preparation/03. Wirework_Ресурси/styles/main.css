@@ -5,7 +5,7 @@
   --clr-primary: #e24e2a;
   --clr-grey: #999992;
   --clr-grey-dark: #3f3f3f;
-  --clr-grey-text: #bcbcbc;
+  --clr-grey-text: #575652;
   --clr-grey-bg: #383838;
   --clr-green: #1b9772;
   --clr-green-text: #3aa483;
@@ -128,6 +128,8 @@ body {
 }
 #features .section-grid-item .title {
 margin-bottom: 1rem;
+font-weight: 300;
+letter-spacing: 1px;
 }
 #features .section-grid-item .divider {
   height: 2px;
@@ -135,6 +137,22 @@ margin-bottom: 1rem;
   margin-bottom: 1rem;
 }
 #features .section-grid-item .desc{
+    color: var(--clr-grey-text);
+    font-size: 20px;
+}
+
+/* Advantages */
+
+#advantages {
+    background-color: var(--clr-grey-bg);
+    color: var(--clr-white);
+  }
+  #advantages .section-grid-item .title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    }
+  #advantages .section-grid-item .desc{
     color: var(--clr-grey-text);
     font-size: 20px;
 }
