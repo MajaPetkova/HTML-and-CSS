@@ -127,57 +127,86 @@ body {
   font-size: 48px;
 }
 #features .section-grid-item .title {
-margin-bottom: 1rem;
-font-weight: 300;
-letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 #features .section-grid-item .divider {
   height: 2px;
   background-color: var(--clr-grey-dark);
   margin-bottom: 1rem;
 }
-#features .section-grid-item .desc{
-    color: var(--clr-grey-text);
-    font-size: 20px;
+#features .section-grid-item .desc {
+  color: var(--clr-grey-text);
+  font-size: 20px;
 }
 
 /* Advantages */
 
 #advantages {
-    background-color: var(--clr-grey-bg);
-    color: var(--clr-white);
-  }
-  #advantages .section-grid-item .title {
-    margin-bottom: 2rem;
-    font-weight: 300;
-    letter-spacing: 1px;
-    }
-  #advantages .section-grid-item .desc{
-    color: var(--clr-grey-text);
-    font-size: 20px;
+  background-color: var(--clr-grey-bg);
+  color: var(--clr-white);
+}
+#advantages .section-grid-item .title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+#advantages .section-grid-item .desc {
+  color: var(--clr-grey-text);
+  font-size: 20px;
 }
 
 /* Subscribe */
 
-#subscribe{
-    background-color: var(--clr-white);
-    text-align: center;
+#subscribe {
+  background-color: var(--clr-white);
+  text-align: center;
 }
-#subscribe .title{
-    font-size: 42px;
+#subscribe .title {
+  font-size: 42px;
 }
 
-#subscribe .desc{
-    font-size: 22px;
-    /* color: var(--clr-grey-text); */
-    color: var(--clr-grey);
-    margin-bottom: 2rem;
+#subscribe .desc {
+  font-size: 22px;
+  /* color: var(--clr-grey-text); */
+  color: var(--clr-grey);
+  margin-bottom: 2rem;
 }
-#subscribe .btn{
-    background-color: var(--clr-green);
-    color: var(--clr-white);
-    border: none;
-    padding: 1rem 3.5rem;
-    font-size: 22px;
-    letter-spacing: 1px;
+#subscribe .btn {
+  background-color: var(--clr-green);
+  color: var(--clr-white);
+  border: none;
+  padding: 1rem 3.5rem;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--clr-green);
+  /* color: var(--clr-green-text); */
+}
+.footer .resources {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+.footer .resources .divider{
+    height: 25px;
+    width: 2px;
+    background-color: var(--clr-green-text);
+    display: inline
+}
+.footer .resources .resource {
+  padding: 0 1rem;
+  color: var(--clr-green-text);
+}
+.footer a {
+  color: var(--clr-green-link);
+  text-decoration: none;
+  font-size: 18px;
 }
