@@ -21,11 +21,14 @@ body {
 /* header */
 .header {
   position: sticky;
+  top:0px;
+  left: 0px;
   z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 2rem;
+  background-color: var(--clr-white);
 }
 .header .logo {
   display: flex;
