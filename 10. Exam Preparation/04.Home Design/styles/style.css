@@ -28,12 +28,12 @@ body {
   flex-wrap: wrap;
 }
 .cards .card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 16px;
   background-color: white;
   width: 400px;
   overflow: hidden;
-  padding-bottom: 25px;
+  /* padding-bottom: 80px; */
 }
 .cards .card .card__img {
   margin-bottom: 25px;
@@ -55,15 +55,16 @@ body {
   padding-left: 35px;
   padding-right: 35px;
   font-size: 18px;
-  margin-bottom: 25px;
-}
-.cards .card-content .content__btn {
-    font-size: 18px;
+  margin-bottom: 30px;
+  min-height: 80px;
 }
 .cards .card-content .content__link{
   display: flex;
   justify-content: center;
- 
+  padding-bottom: 25px;
+}
+.cards .card-content .content__btn {
+    font-size: 18px;
 }
 .cards .card-content .content__btn i{
     color: red;
