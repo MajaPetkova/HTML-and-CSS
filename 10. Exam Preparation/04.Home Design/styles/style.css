@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 .cards .card {
   border: 1px solid black;
@@ -57,10 +58,12 @@ body {
   margin-bottom: 25px;
 }
 .cards .card-content .content__btn {
-    margin-left: 135px;
+    font-size: 18px;
 }
 .cards .card-content .content__link{
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+ 
 }
 .cards .card-content .content__btn i{
     color: red;
