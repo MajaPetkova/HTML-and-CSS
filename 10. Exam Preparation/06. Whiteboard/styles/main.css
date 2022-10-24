@@ -41,6 +41,8 @@ body {
   text-decoration: none;
   color: var(--clr-white);
 }
+
+/*   Hero */
 #hero .info {
   text-align: center;
 }
@@ -73,11 +75,46 @@ body {
   font-size: 18px;
   margin-bottom: 105px;
 }
-#hero .info .info__link a{
-    color: var(--clr-white);
-    text-decoration: none;
-    font-size:25px;
+#hero .info .info__link a {
+  color: var(--clr-white);
+  text-decoration: none;
+  font-size: 25px;
 }
-#hero .info .info__link i{
-padding-left: 10px;
+#hero .info .info__link i {
+  padding-left: 10px;
+}
+
+/* Blocks */
+#blocks {
+  max-height: 550px;
+  display: flex;
+}
+#blocks img {
+  width: 50%;
+}
+#blocks .block-info {
+  padding: 50px 80px;
+  width: 50%;
+}
+#blocks .block-info .info__title {
+  font-size: 35px;
+  color: var(--clr-grey-dark);
+  letter-spacing: 1px;
+}
+#blocks .block-info .info__desc {
+  font-size: 26px;
+  width: 750px;
+  color: var(--clr-grey-dark);
+  padding-bottom: 27px;
+  letter-spacing: 1px;
+}
+#blocks .block-info .info__list li {
+  list-style-type: none;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+#blocks .block-info .info__list li i {
+  background-color: var(--clr-white);
+  color: var(--clr-green);
+  padding-right: 30px;
 }
