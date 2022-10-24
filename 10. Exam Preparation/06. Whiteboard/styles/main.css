@@ -8,9 +8,6 @@
   --clr-white: #fff;
   --clr-grey-dark: rgb(41, 39, 39);
 }
-.btn {
-  border: none;
-}
 body {
   font-family: "PT-Sans", sans-serif;
 }
@@ -74,6 +71,12 @@ body {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 105px;
+  border: none;
+}
+#hero .info .info__btn:hover{
+    cursor: pointer;
+    border: solid 2px var(--clr-white);
+    background-color: transparent;
 }
 #hero .info .info__link a {
   color: var(--clr-white);
