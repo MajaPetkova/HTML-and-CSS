@@ -26,6 +26,22 @@ body {
         font-size: 22px;
       }  */
 }
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 26px;
+  }
+  :root {
+    --p-x: 3rem;
+    --p-y: 5rem;
+  }
+}
 /* Component - button */
 .btn {
   position: relative;
@@ -210,6 +226,11 @@ header img {
   }
   .feature-section:nth-of-type(odd) img {
     order: -1;
+  }
+  .feature-section img {
+    max-width: unset;
+    width: 100%;
+ 
   }
 }
 /* FAQ */
