@@ -16,6 +16,16 @@ body {
   background-color: var(--clr-black);
   color: var(--clr-white);
 }
+
+@media screen and (min-width: 768px) {
+  :root {
+    --p-x: 2rem;
+    --p-y: 4rem;
+  }
+  /* html{
+        font-size: 22px;
+      }  */
+}
 /* Component - button */
 .btn {
   position: relative;
@@ -180,11 +190,27 @@ header img {
 .feature-section .content .desc {
   font-size: 1rem;
 }
-.feature-section img{
-    max-width: 480px;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
+.feature-section img {
+  max-width: 480px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .feature-section,
+  .feature-section .title-section {
+    text-align: left;
+  }
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+  }
+  .feature-section:nth-of-type(odd) img {
+    order: -1;
+  }
 }
 /* FAQ */
 #faq {
@@ -196,6 +222,8 @@ header img {
 #faq .questions .question {
   background-color: var(--clr-gray);
   padding: 0.5rem var(--p-x);
+  max-width: 680px;
+  margin: 0 auto;
 }
 #faq .questions .question .line {
   display: flex;
@@ -235,12 +263,14 @@ header img {
 #faq .subscription {
   text-align: center;
   padding: 0px var(--p-x);
+  max-width: 680px;
+  margin: 0 auto;
 }
 #faq .subscription .title {
   font-weight: 500;
   margin-bottom: 1rem;
   max-width: 460px;
-  text-align:center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
