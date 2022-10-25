@@ -7,7 +7,10 @@
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --p-x: 1rem;
+  --p-y: 2rem;
 }
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--clr-black);
@@ -30,6 +33,10 @@ body {
   box-shadow: var(--shadow-xl);
   bottom: 0.125rem;
 }
+  /* Component - section  */
+  section{
+    border-bottom: 6px solid var(--clr-gray);
+  }
 
 /* Component - input */
 
@@ -56,7 +63,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem var(--p-x);
   z-index: 1000;
 }
 header img {
@@ -124,4 +131,20 @@ header img {
 }
 #hero .input-wrapper {
   margin-bottom: 1rem;
+}
+
+/* Section Type Feature */
+.feature-section {
+  padding: var(--p-y) var(--p-x);
+  text-align: center;
+}
+.feature-section .content{
+margin-bottom: 1rem;
+}
+.feature-section .content .title{
+   font-size: 1.5rem; 
+   margin-top: 0.5rem;
+}
+.feature-section .content .desc{
+    font-size: 1rem;
 }
