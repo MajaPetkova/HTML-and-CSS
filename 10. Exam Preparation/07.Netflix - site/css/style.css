@@ -41,6 +41,8 @@ body {
     --p-x: 3rem;
     --p-y: 5rem;
   }
+
+  
 }
 /* Component - button */
 .btn {
@@ -218,7 +220,7 @@ header img {
   .feature-section .title-section {
     text-align: left;
   }
-  .feature-section {
+  .feature-section .content-wrapper{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -229,9 +231,21 @@ header img {
   }
   .feature-section img {
     max-width: unset;
-    width: 100%;
- 
   }
+ 
+}
+@media screen and (min-width: 768px) {
+  .feature-section .content-wrapper{
+max-width: 1200px;
+margin-right: auto;
+margin-left: auto;}}
+@media screen and (min-width: 1024px) {
+ .input-wrapper{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto
+ }
+ 
 }
 /* FAQ */
 #faq {
@@ -243,7 +257,7 @@ header img {
 #faq .questions .question {
   background-color: var(--clr-gray);
   padding: 0.5rem var(--p-x);
-  max-width: 680px;
+  max-width: 42rem;
   margin: 0 auto;
 }
 #faq .questions .question .line {
@@ -284,13 +298,13 @@ header img {
 #faq .subscription {
   text-align: center;
   padding: 0px var(--p-x);
-  max-width: 680px;
+  max-width: 48rem;
   margin: 0 auto;
 }
 #faq .subscription .title {
   font-weight: 500;
   margin-bottom: 1rem;
-  max-width: 460px;
+  max-width: 42rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
