@@ -1,0 +1,124 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+:root {
+  --clr-light: #fafafa;
+  --clr-bg: #222526;
+  --clr-grey: #cfcfcf;
+}
+body {
+  background-color: #e6e6e6;
+  font-family: "Open-Sans", sans-serif;
+}
+#form {
+  width: 1000px;
+  height: 600px;
+  margin: 80px auto;
+  box-shadow: 14px 14px 14px -10px rgba(63, 63, 63, 0.75);
+}
+.form-wrapper {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.form-wrapper .black-side {
+  background-color: rgb(34, 37, 38);
+  width: 50%;
+  /* background-image:url(../image/cover.jpg); */
+  position: relative;
+  height: 600px;
+  display: flex;
+}
+.form-wrapper .bg {
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  opacity: 0.1;
+  z-index: 0;
+}
+.form-wrapper .content {
+  z-index: 100;
+  color: white;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.form-wrapper .content .logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form-wrapper .content .titles {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: 1;
+}
+.form-wrapper .content .title {
+  font-weight: 100;
+  font-size: 42px;
+  margin: 0 -68px;
+}
+.form-wrapper .content .sub-title {
+  font-size: 28px;
+  font-weight: 300;
+  margin: -15px -80px;
+}
+.form-wrapper .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-wrapper .icons i:not(:last-child) {
+  margin-right: 20px;
+}
+
+.form-wrapper .white-side {
+  width: 50%;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: white;
+  color: var(--clr-grey);
+}
+.form-wrapper .white-side .items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.form-wrapper .white-side .items label {
+  margin-bottom: 20px;
+}
+.form-wrapper .white-side .items input {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  padding-bottom: 10px;
+}
+.button{
+    margin-top: 60px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: none;
+  margin-right: 20px;
+}
+:placeholder{
+    color:grey;
+    font-size: 18px;
+}
+.button a{
+    color: grey;
+}
