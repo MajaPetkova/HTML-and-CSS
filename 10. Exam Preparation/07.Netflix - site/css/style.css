@@ -258,7 +258,9 @@ margin-left: auto;}}
   background-color: var(--clr-gray);
   padding: 0.5rem var(--p-x);
   max-width: 42rem;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
 }
 #faq .questions .question .line {
   display: flex;
@@ -304,7 +306,7 @@ margin-left: auto;}}
 #faq .subscription .title {
   font-weight: 500;
   margin-bottom: 1rem;
-  max-width: 42rem;
+  max-width: 40rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
