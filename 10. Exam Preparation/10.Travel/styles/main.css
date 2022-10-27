@@ -7,8 +7,8 @@
   --clr-secondary: #97680b;
   --clr-gray: #4f5472;
 }
-html{
-    font-family: Helvetica, sans-serif;
+html {
+  font-family: Helvetica, sans-serif;
 }
 header .logo-wrapper {
   display: flex;
@@ -83,35 +83,65 @@ main #hero .shuttle {
   font-size: 18px;
   line-height: 1.1;
 }
-main #hero .shuttle .title{
-    margin-bottom: 20px;
+main #hero .shuttle .title {
+  margin-bottom: 20px;
+  font-size: 30px;
 }
-main #hero .shuttle .shuttle__btn{
-    margin-top: 20px;
-    border: var(--clr-white) solid 2px;
-    background-color: transparent;
-    color: #f19f10;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-weight: bold;
+main #hero .shuttle .shuttle__btn {
+  margin-top: 20px;
+  border: var(--clr-white) solid 2px;
+  background-color: transparent;
+  color: #f19f10;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-weight: bold;
 }
-main #hero .shuttle .shuttle__btn:hover{
-    background-color: var(--clr-white);
+main #hero .shuttle .shuttle__btn:hover {
+  background-color: var(--clr-white);
 }
-main #hero .card {
-  /* height: 350px; */
+ #hero .card {
   background: rgb(207, 171, 59);
   background: linear-gradient(
     180deg,
     rgba(207, 171, 59, 1) 0%,
     rgba(151, 104, 11, 1) 100%
   );
+  /* width: 450px; */
   color: var(--clr-white);
-  text-align: center;
+  text-align: start;
   width: 1920px;
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
-main #hero .card p{
-padding-top: 20px;
+#hero .card .card__text{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 650px;
+    
+} 
+#hero .card .card__text p{
+    font-size: 18px;
+    padding-top: 20px;
+} 
+#hero .card .card__text i{
+ margin-right: 10px;
+}
+#hero .card .card__text .title{
+    text-align: center;
+   font-weight: 700;
+   font-size: 30px;
+}
+#hero .card .primary-btn {
+  color: var(--clr-white);
+  border: var(--clr-white) solid 2px;
+  background-color: transparent;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 300;
+}
+#hero .card .primary-btn.btn{
+margin-left: 40%;  
 }
