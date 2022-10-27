@@ -7,6 +7,15 @@
   --clr-secondary: #97680b;
   --clr-gray: #4f5472;
 }
+.primary-btn {
+    color: var(--clr-white);
+    border: var(--clr-white) solid 2px;
+    background-color: transparent;
+    padding: 10px 30px;
+    cursor: pointer;
+   
+    font-weight: bold;
+  }
 html {
   font-family: Helvetica, sans-serif;
 }
@@ -56,8 +65,10 @@ header .navigation ul li a {
   font-size: 18px;
   color: var(--clr-gray);
 }
+
+/* Section Hero */
 main #hero {
-  height: 110vh;
+  /* height: 110vh; */
   width: 140%;
 }
 main #hero img {
@@ -117,12 +128,12 @@ main #hero .shuttle .shuttle__btn:hover {
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    width: 650px;
-    
+    width: 650px;   
 } 
 #hero .card .card__text p{
     font-size: 18px;
     padding-top: 20px;
+     margin-bottom: 20px;
 } 
 #hero .card .card__text i{
  margin-right: 10px;
@@ -132,15 +143,73 @@ main #hero .shuttle .shuttle__btn:hover {
    font-weight: 700;
    font-size: 30px;
 }
-#hero .card .primary-btn {
-  color: var(--clr-white);
-  border: var(--clr-white) solid 2px;
-  background-color: transparent;
-  padding: 10px 30px;
-  cursor: pointer;
-  margin-top: 20px;
-  font-weight: 300;
-}
 #hero .card .primary-btn.btn{
 margin-left: 40%;  
 }
+/* Section Budapest */
+#budapest .heading{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#budapest .budapest-title{
+    padding-top: 50px;
+    font-size: 42px;
+    font-weight: 100;
+    text-align: center;
+    color: var(--clr-gray);
+}
+#budapest .budapest-subtitle{
+    color: var(--clr-gray);
+    font-weight: 100;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#budapest .features .advertise{
+    display: flex;
+    justify-content: center;
+}
+#budapest .features .advertise img{
+    border-radius: 100%;
+    border: 1px solid var(--clr-gray);
+   padding: 2px;
+
+}
+#budapest .features .advertise li {
+    list-style: none;
+    font-size: 15px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#budapest .features .advertise li p{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Section Newsletter */
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: rgb(207, 171, 59);
+    background: linear-gradient(
+      180deg,
+      rgba(207, 171, 59, 1) 0%,
+      rgba(151, 104, 11, 1) 100%
+    );
+    padding: 0 50px;
+}
+#newsletter .news{
+    color: var(--clr-white);
+}
+ footer{
+    padding-top: 24px;
+    height: 70px;
+    text-align: center;
+}
+
