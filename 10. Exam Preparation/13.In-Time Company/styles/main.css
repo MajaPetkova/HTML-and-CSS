@@ -10,6 +10,18 @@ html {
   --clr-black: #000;
   --clr-greyBG:#eef0f1;
 }
+.active {
+    text-underline-offset: 10px;
+    text-decoration: 4px underline var(--clr-primary);
+  }
+  
+  .main-title{
+    font-size: 36px;
+    font-weight: 100;
+    color: var(--clr-grey-dark);
+    text-align: center;
+    margin-bottom: 20px;
+}
 #head {
   display: flex;
   justify-content: space-between;
@@ -32,10 +44,6 @@ html {
 #head .navigation .menu li {
   list-style-type: none;
   margin-left: 30px;
-}
-#head .navigation .menu .active {
-  text-underline-offset: 10px;
-  text-decoration: 4px underline var(--clr-primary);
 }
 #hero img {
   width: 100%;
@@ -74,16 +82,18 @@ html {
 }
 #main-text{
     padding-top: 30px;
-    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 62%;
+    margin-bottom: 30px;
 }
-#main-text .main-title{
-    font-size: 36px;
-    font-weight: 100;
-    color: var(--clr-grey-dark);
+#main-text .divider-blue{
+    width: 120px;
+    height: 4px;
+    background-color: var(--clr-primary);
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
 }
 #main-text .main-subtitle{
     text-align: center;
@@ -104,4 +114,63 @@ html {
     border-radius: 30px;
     padding: 10px 20px;
    
+}
+#services{
+    width: 100%;
+    background-color: var(--clr-greyBG);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#services .cards .card{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+#services .divider-grey{
+    width: 120px;
+    height: 4px;
+    background-color: var(--clr-grey-medium);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: 47%;
+}
+#services .cards .card li{
+    width: 32%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    background-color: var(--clr-white);
+}
+#services .cards .card li img{
+    margin-bottom: 30px;
+}
+#services .cards .card li .card-title{
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--clr-grey-medium);
+    font-weight: 200;
+    font-size: 22px;
+}
+#services .cards .card li .card-subtitle{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+#services .cards .card li .main-btn{
+    width: 100%;
+    text-align: center;
+}
+#services .cards .card li .card-btn{
+    background-color: var(--clr-grey-medium);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 15px;
 }
