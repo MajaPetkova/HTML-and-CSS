@@ -1,1 +1,117 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+:root {
+  --clr-primary: #cfab3b;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-secondary: #97680b;
+  --clr-gray: #4f5472;
+}
+html{
+    font-family: Helvetica, sans-serif;
+}
+header .logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 70px;
+}
+header .logo-wrapper img {
+  background: rgb(207, 171, 59);
+  background: linear-gradient(
+    180deg,
+    rgba(207, 171, 59, 1) 0%,
+    rgba(151, 104, 11, 1) 100%
+  );
+  position: absolute;
+  margin-top: -10px;
+  z-index: 1000;
+}
+header .logo-wrapper .icons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -15px;
+  color: var(--clr-gray);
+  font-size: 18px;
+}
+header .logo-wrapper .icons-wrapper .icon {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .navigation ul {
+  display: flex;
+  justify-content: right;
+  margin-right: 60px;
+  list-style-type: none;
+  /* margin-top: -30px; */
+}
+header .navigation ul li a {
+  padding-left: 40px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--clr-gray);
+}
+main #hero {
+  height: 40vh;
+  width: 140%;
+}
+main #hero img {
+  height: 600px;
+  /* width:100%; */
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-left: -5%;
+  background-repeat: no-repeat;
+  width: 2200px;
+  position: relative;
+}
+main #hero .shuttle {
+  position: absolute;
+  width: 580px;
+  background-color: rgba(0, 0, 0, 0.69);
+  padding: 40px 30px;
+  letter-spacing: 1px;
+  margin-left: 200px;
+  margin-top: -400px;
+  color: var(--clr-white);
+  font-size: 18px;
+  line-height: 1.1;
+}
+main #hero .shuttle .title{
+    margin-bottom: 20px;
+}
+main #hero .shuttle .shuttle__btn{
+    margin-top: 20px;
+    border: var(--clr-white) solid 2px;
+    background-color: transparent;
+    color: #f19f10;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+main #hero .shuttle .shuttle__btn:hover{
+    background-color: var(--clr-white);
+}
+main #hero .card {
+  /* height: 350px; */
+  background: rgb(207, 171, 59);
+  background: linear-gradient(
+    180deg,
+    rgba(207, 171, 59, 1) 0%,
+    rgba(151, 104, 11, 1) 100%
+  );
+  color: var(--clr-white);
+  text-align: center;
+  width: 1920px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main #hero .card p{
+padding-top: 20px;
+}
