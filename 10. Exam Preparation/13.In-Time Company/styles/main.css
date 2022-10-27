@@ -1,0 +1,107 @@
+html {
+  font-family: Helvetica;
+}
+:root {
+  --clr-primary: #008cba;
+  --clr-grey-medium: #393f43;
+  --clr-grey-light: #545a5e;
+  --clr-grey-dark: #2f3539;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-greyBG:#eef0f1;
+}
+#head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-white);
+  color: var(--clr-grey-medium);
+  padding: 20px 100px;
+}
+#head .logo {
+  font-size: 32px;
+}
+#head .logo span {
+  color: var(--clr-primary);
+}
+#head .navigation .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head .navigation .menu li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+#head .navigation .menu .active {
+  text-underline-offset: 10px;
+  text-decoration: 4px underline var(--clr-primary);
+}
+#hero img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  position: relative;
+}
+#hero .hero__titles {
+  width: 650px;
+  background-color: rgba(0, 0, 0, 0.448);
+  position: absolute;
+  left: 250px;
+  top: 360px;
+  color: var(--clr-white);
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+#hero .hero__titles h1 {
+  font-size: 46px;
+  line-height: 1.1;
+  text-align: start;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 200;
+}
+#hero .hero__titles .btn.primary-btn {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  border: none;
+  border-radius: 30px;
+  padding: 14px;
+  margin-left: 30px;
+  width: 200px;
+}
+#main-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62%;
+}
+#main-text .main-title{
+    font-size: 36px;
+    font-weight: 100;
+    color: var(--clr-grey-dark);
+    text-align: center;
+}
+#main-text .main-subtitle{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+#main-text div{
+    width: 62%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main-text .main-btn{
+    background-color: var(--clr-grey-dark);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+   
+}
