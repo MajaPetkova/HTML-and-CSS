@@ -57,7 +57,7 @@ header .navigation ul li a {
   color: var(--clr-gray);
 }
 main #hero {
-  height: 40vh;
+  height: 110vh;
   width: 140%;
 }
 main #hero img {
@@ -112,7 +112,6 @@ main #hero .shuttle .shuttle__btn:hover {
   width: 1920px;
   padding-top: 20px;
   padding-bottom: 20px;
-  
 }
 #hero .card .card__text{
     margin-left: auto;
