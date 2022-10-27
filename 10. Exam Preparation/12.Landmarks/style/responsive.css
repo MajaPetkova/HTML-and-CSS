@@ -1,1 +1,49 @@
-/* TODO */
+@media screen and (max-width: 600px) {
+
+    #main-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+    #main-menu ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #main-menu ul li{
+        border: 1px solid red;
+        margin-bottom: 5px;
+        width: 130px;
+        text-align: center;
+    }
+    #left-aside{
+        display: flex;
+        justify-content: space-around;
+    }
+    #left-aside article{
+        border-bottom: none;
+        
+    }
+    #news {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #news article{
+        width: 90%;
+    }
+    #right-aside{
+        width: 95%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    footer ul{
+width: 80%;
+    }
+}
