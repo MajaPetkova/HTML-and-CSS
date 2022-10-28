@@ -21,6 +21,35 @@ button {
 p {
   font-family: "Open Sans";
 }
+.titles .normal {
+  font-size: 70px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--clr-white);
+}
+.titles .bold {
+  font-size: 80px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+.titles .subtitle {
+  font-size: 20px;
+
+  line-height: 2;
+  margin-bottom: 60px;
+}
+.titles .btn {
+  background-color: var(--clr-white);
+  color: var(--clr-primary);
+  border: none;
+  padding: 10px 40px;
+  font-size: 20px;
+  border-radius: 30px;
+  font-weight: 500px;
+}
 
 /* Header  */
 
@@ -49,99 +78,140 @@ p {
   font-weight: 600px;
 }
 /* Section Hero  */
-#header .hero .bg-img{
-    position: relative;
-    /* height:70%; */
+#header .hero .bg-img {
+  position: relative;
+  /* height:70%; */
 }
-#header .hero .dog{
-    position: absolute;
-    right: 200px;
-    top:300px
+#header .hero .dog {
+  position: absolute;
+  right: 200px;
+  top: 300px;
 }
-#header .hero .titles{
-    position: absolute;
-    left: 200px;
-    top:300px;
-
+#header .hero .titles {
+  position: absolute;
+  left: 200px;
+  top: 300px;
 }
-#header .hero .titles .normal{
-    font-size: 70px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    line-height: 1.2;
-    color: var(--clr-white);
+#header .hero .titles .normal {
+  color: var(--clr-white);
 }
-#header .hero .titles .bold{
-    font-size: 80px;
-    letter-spacing: 2px;
-    font-weight: 900;
-    line-height: 1;
-    color: var(--clr-white);
-    margin-bottom: 30px;
+#header .hero .titles .bold {
+  color: var(--clr-white);
 }
-#header .hero .titles .subtitle{
-    font-size: 20px;
-    color: var(--clr-white);
-    width: 450px;
-    line-height: 2;
-    margin-bottom: 60px;
+#header .hero .titles .subtitle {
+  color: var(--clr-white);
+  width: 450px;
 }
-#header .hero .titles .btn{
-    background-color: var(--clr-white);
-    color: var(--clr-primary);
-    border: none;
-    padding: 10px 40px;
-    font-size: 20px;
-    border-radius: 30px;
-    font-weight: 500px;
+#header .hero .titles .btn {
+  background-color: var(--clr-white);
+  color: var(--clr-primary);
 }
 /* Section Services  */
-#services{
-    margin: 200px auto;
+#services {
+  margin: 200px auto;
 }
-#services .services-title{
-    text-align: center;
-    font-size: 50px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 20px;
+#services .services-title {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
-#services .services-subtitle{
+#services .services-subtitle {
   color: var(--clr-grey);
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
-  margin-bottom:80px ;
+  margin-bottom: 80px;
 }
-#services .cards{
+#services .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 60px;
+}
+#services .cards .card {
+  padding-top: 60px;
+  width: 25%;
+  position: relative;
+  border: solid 1px rgb(189, 189, 101);
+  border-radius: 15px;
+}
+#services .cards .card .card-bg {
+  margin-left: 25%;
+}
+#services .cards .card .text {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+#services .cards .card .img {
+  position: absolute;
+  top: 80px;
+  left: 36%;
+}
+/* Section Care   */
+
+#care {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.titles .normal {
+  color: var(--clr-black);
+}
+#care .titles .bold {
+  color: var(--clr-black);
+}
+#care .titles .subtitle {
+  width: 600px;
+}
+#care .titles .btn {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+/* Section Why   */
+#why {
+  position: relative;
+  text-align: center;
+  margin-bottom: 80px;
+}
+#why .titles {
+  position: absolute;
+  left: 26%;
+  top: 200px;
+  color: var(--clr-white);
+  z-index: 1;
+}
+#why .titles .bold {
+  font-weight: 500;
+  font-size: 60px;
+}
+#why .titles .subtitle {
+  width: 800px;
+  font-size: 28px;
+}
+#why .titles .btn {
+  margin-right: 30px;
+}
+#why .titles span{
+    padding-right: 30px;
+}
+ /* Section footer   */
+
+ #footer{
+    margin-bottom: 80px;
+    margin-top: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1240px;
+    justify-content: space-between;
+    width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    gap:60px
-}
-#services .cards .card{
-    padding-top: 60px;
-    width: 25%;
-    position: relative;
-    border: solid 1px rgb(189, 189, 101);
-    border-radius: 15px;
-}
-#services .cards .card .card-bg{
-    margin-left: 25%;
-}
-#services .cards .card .text{
-    text-align: center;
-    margin-bottom: 60px;
-    margin-top: 50px;
-}
-#services .cards .card .img{
-    position: absolute;
-    top:80px;
-    left: 36%;
-    
-}
+ }
