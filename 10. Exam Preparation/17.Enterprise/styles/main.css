@@ -1,0 +1,46 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+#enterprise {
+    margin: 40px auto;
+    padding-top: 70px;
+    border: 1px solid black;
+    width: 1240px;
+    display: flex;
+    background-color: #f6f8f9;
+}
+#enterprise .text{
+    width: 60%;
+    padding-left: 40px;
+    /* margin-top: 50px; */
+}
+#enterprise .text .title{
+    margin-top: 10px;
+    margin-bottom: 40px;
+font-size: 42px;
+font-weight: 100;
+color: #36404d;
+}
+#enterprise .text .para{
+    width: 500px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    color: #89929a;
+}
+.btn{
+    width:180px;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-right: 12px;
+}
+.btn.btn-active{
+    border:none;
+    background-color: #786eff;
+    color: white;
+}
+.btn.btn-not{
+    border-color:#36404d; 
+    color:#36404d;
+}
