@@ -101,21 +101,44 @@ h5 {
   color: #656565;
   background-color: white;
 }
-
-#bridge .wrapper .text{
-    width: 60%;
-    margin: 0 auto;
-    position: relative;
-  
+.img-full img {
+  width: 100%;
 }
-#bridge .container .wrapper .title{
-    margin-top: 80px;
-    margin-left: 0px;
+#bridge .wrapper .text {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+#bridge .container .wrapper .title {
+  margin-top: 80px;
+  margin-left: 0px;
 }
 
-#bridge .container .wrapper .divider{
-    width: 1px;
+#bridge .container .wrapper .divider {
+  width: 1px;
   height: 60px;
   background-color: #656565;
   margin-top: 30px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  /* position: relative; */
+}
+.images img {
+  width: 30%;
+}
+.images img:nth-of-type(2) {
+  flex:1 0 700px;
+  z-index: 100;
+}
+.images img:nth-of-type(3) {
+  position: relative;
+  left: -200px;
+}
+.images img:nth-of-type(1) {
+  position: relative;
+  right: -200px;
 }
