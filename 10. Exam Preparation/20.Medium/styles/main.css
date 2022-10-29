@@ -1,0 +1,63 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Georgia, serif;
+}
+p,
+button {
+  font-family: Helvetica, sans-serif;
+}
+.span{
+    background-color: #cefde9;
+}
+#hero {
+  border: 1px solid black;
+  width: 1200px;
+  margin: 40px auto;
+}
+#hero .add {
+  width: 70%;
+  margin: 10px auto;
+}
+#hero .add .title {
+  font-size: 46px;
+}
+#hero .add .sub {
+  color: grey;
+}
+#hero .add .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* gap:40px; */
+    margin-top: 30px;
+}
+#hero .add .wrapper .btn{
+    text-align: center;
+background-color:#03a87c;
+border: none;
+padding:8px 30px;
+color: white;
+width:210px;
+font-weight: bolder;
+}
+#hero .add .wrapper .text{
+    width: 50%;
+    text-align: start;
+}
+.wrapper .text .text-title{
+ font-size: 18px;
+ font-family:  Helvetica, serif;
+ margin-bottom: 30px;
+}
+.divider{
+    width:350px;
+    height: 1px ;
+    background-color: grey;
+   margin-left: 200px;
+ margin-top: 50px;
+ margin-bottom: 30px;
+    
+}
