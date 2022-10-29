@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+    
+.banner h2{
+    font-size: 2rem;
+    width:90%;
+    margin-top: -50px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.banner .actions .button.special{
+    width: 540px;
+margin-left: 5%;
+
+}
+.wrapper .inner {
+ width: 600px;
+}
+.wrapper .features{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .features .feature{
+    width: 90%;
+}
+.wrapper .inner.narrow{
+width: 90%;
+}
+.wrapper .inner.narrow form{
+    flex-direction: column;
+    
+}
+.wrapper .inner.narrow .grid-form .form-control{
+    width: 100%;
+}
+.actions{
+width: 90%;
+}
+form .actions li input{
+    width: 530px;
+
+}
+.footer{
+    margin-top:-40px;
+}
+.footer::before{
+    width: 100%;
+    left:unset;
+}
+.footer .copyright{
+    margin:unset;
+    margin-top:-30px;
+    margin-bottom:0px;
+}
+}
