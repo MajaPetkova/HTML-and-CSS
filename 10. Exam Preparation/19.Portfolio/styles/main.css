@@ -13,11 +13,11 @@ h5 {
 }
 .bold {
   font-weight: 700;
-  color: #656565
+  color: #656565;
 }
 .thin {
   font-weight: 200;
-  color: #656565
+  color: #656565;
 }
 .container {
   background-color: #efefef;
@@ -90,14 +90,32 @@ h5 {
 /* .container .wrapper .italic:nth-of-type(1){
     margin-bottom: 30px;
 } */
-.container .wrapper .icons li{
-display: inline-block;
-padding: 10px;
-margin-top: 30px;
-margin-left: -10px;
+.container .wrapper .icons li {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: -10px;
 }
-.container .wrapper .icons li i{
-    font-size: 28px;
-   color:#656565 ;
-background-color: white;
+.container .wrapper .icons li i {
+  font-size: 28px;
+  color: #656565;
+  background-color: white;
+}
+
+#bridge .wrapper .text{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+  
+}
+#bridge .container .wrapper .title{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+#bridge .container .wrapper .divider{
+    width: 1px;
+  height: 60px;
+  background-color: #656565;
+  margin-top: 30px;
 }
