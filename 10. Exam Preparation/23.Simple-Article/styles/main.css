@@ -1,0 +1,70 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3,h4,h5, p{
+    font-family: 'Lato', serif;
+}
+html{
+    font-family: 'Lato', serif;
+}
+#hero{
+    border: 1px solid black;
+    width: 1300px;
+    margin:40px auto;
+
+}
+#hero .container{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    padding: 30px 40px;
+    /* gap:10px */
+}
+#hero .container .blue{
+    color: rgb(99, 97, 97);
+    background-color: #e3f3fd;
+    width: 45%;
+    padding: 30px 20px;
+}
+#hero .container .blue .list{
+    list-style-type: none;
+   
+}
+#hero .container .blue .blue-title{
+    margin-bottom: 20px;
+}
+#hero .container .blue .items li i{
+    margin-right: 10px;
+    color:#68baf9 ;
+  font-weight: bolder;
+}
+#hero .container .white{
+    border: 6px solid #68baf9;
+    width: 45%;
+}
+#hero .container .white{
+    text-align: center;
+    padding-top: 45px;
+    color:rgb(99, 97, 97)
+}
+#hero .container .white .white-title .bold{
+    font-size: 42px;
+    color:#68baf9;
+
+    font-weight: bolder;
+}
+#hero .container .white p{
+    margin-bottom: 25px;
+}
+#hero .container .white .sub{
+    font-weight: bolder;
+}
+#hero .container .white .btn{
+    background-color: #44a9f8;
+    border-radius:10px;
+    padding:8px 30px;
+    border:none;
+    color: white;
+    margin-bottom: 45px;
+}
