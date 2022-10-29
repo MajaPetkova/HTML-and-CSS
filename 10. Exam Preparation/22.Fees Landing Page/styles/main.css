@@ -30,11 +30,10 @@ li {
   align-items: center;
   gap: 32px;
 }
-
+  /* Section Taxes   */
 #taxes {
     background-color: #3b3b3f;
     height: 300px;
-    position: relative;
     text-align: center;
     padding-top: 40px;
 }
@@ -45,52 +44,57 @@ li {
 }
 #taxes .calculator {
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
     width: 1500px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px ;
-  margin-bottom: 40px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px ;
+    margin-bottom: 40px ;
 }
 #taxes .calculator .block {
-  padding-top: 20px;
-  width: 30%;
-  border: black solid 1px;
-  height: 300px;
-  background-color: white;
-  color: grey;
-  border-radius: 10px;
-  padding-left: 10px;
-  /* height: 300px; */
-  /* margin-bottom: 0; */
+    position: relative;
+    padding-top: 20px;
+    width: 30%;
+    border: black solid 1px;
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    height: 300px;
+    background-color: white;
+    color: grey;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 #taxes .calculator .block .block-title {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 #taxes .calculator .block:nth-child(1) .block-title {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 #taxes .calculator .block .block-desc {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 #taxes .calculator .block .block-btn {
-  margin-bottom: 70px;
-  background-color: rgb(152, 59, 152);
-  color: white;
-  padding: 6px 20px;
-  border: none;
-  border-radius: 30px;
-  font-size: 18px;
-  font-weight: 200;
+    margin-bottom: 70px;
+    background-color: rgb(152, 59, 152);
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 200;
 }
 #taxes .calculator .block footer {
-  justify-content: center;
+  justify-content: space-around;
   background-color: rgb(64, 236, 110);
   /* align-items: flex-end; */
   align-content: flex-end;
   height: 100px;
+  width: 100%;
 }
+/* #taxes .calculator .block:nth-child(1) footer{
+    margin-left: -5px;
+background-color: aqua;
+} */
 #taxes .calculator .block .blue {
   display: flex;
   /* height: 100px;
@@ -99,7 +103,6 @@ li {
   /* background-color: rgb(134, 134, 200);
     padding-bottom: 0px;
     width: 100%; */
-  /* margin-left: -5px; */
   /* border-top: 1px solid rgb(79, 74, 74); */
   /* align-self: flex-end; */
   /* align-items:flex-start;
