@@ -1,0 +1,69 @@
+@media screen and (max-width: 600px)  {
+    
+header .site-navigation{
+    display: none;
+}
+.site-main{
+    margin: 0;
+}
+.entry-header{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("./images/header-image.jpg");
+  background-size:auto;
+  background-position:center;
+  /* height: 600px; */
+}
+.button-primary{
+    width: 25%;
+}
+.site-logos-container{
+   display: grid;
+   grid-template-columns: repeat(2, 250px);
+   /* justify-content: center; */
+}
+.site-information-image{
+    display: none;
+}
+.site-information-text{
+    margin-left: auto;
+    margin-right: auto;
+}
+.entry-description{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.site-information-text .button-primary{
+    margin-left: 35%;
+    
+    width:35%;
+}
+.site-form{
+    margin-top: 0px;
+}
+.site-blog-container{
+    margin-top: 0px;
+}
+.site-form-container .entry-title{
+    font-size: 10px;
+}
+form p{
+    flex-direction: column;
+}
+form p input{
+    width: 85%;
+}
+form .button-primary{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.site-posts{
+    flex-direction: column;
+}
+.site-footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
