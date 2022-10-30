@@ -30,66 +30,76 @@ li {
   align-items: center;
   gap: 32px;
 }
-  /* Section Taxes   */
+/* Section Taxes   */
 #taxes {
-    background-color: #3b3b3f;
-    height: 300px;
-    text-align: center;
-    padding-top: 40px;
+  background-color: #3b3b3f;
+  height: 300px;
+  text-align: center;
+  padding-top: 40px;
 }
 #taxes .title {
-    color: white;
-    font-size: 22px;
-    font-weight: 400;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
 }
 #taxes .calculator {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1500px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px ;
-    margin-bottom: 40px ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  gap:60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 #taxes .calculator .block {
-    position: relative;
-    padding-top: 20px;
-    width: 30%;
-    border: black solid 1px;
-    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
-    height: 300px;
-    background-color: white;
-    color: grey;
-    border-radius: 10px;
-    padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  width: 30%;
+  border: black solid 1px;
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+  height: 300px;
+  background-color: white;
+  color: grey;
+  border-radius: 10px;
+  padding-left: 10px;
+  height: 350px;
 }
 #taxes .calculator .block .block-title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 #taxes .calculator .block:nth-child(1) .block-title {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 #taxes .calculator .block .block-desc {
-    margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 #taxes .calculator .block .block-btn {
-    margin-bottom: 70px;
-    background-color: rgb(152, 59, 152);
-    color: white;
-    padding: 6px 20px;
-    border: none;
-    border-radius: 30px;
-    font-size: 18px;
-    font-weight: 200;
+  /* margin-bottom: 40px; */
+  background-color: rgb(152, 59, 152);
+  color: white;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  width: 160px;
+ margin-left: auto;
+ margin-right: auto;
 }
 #taxes .calculator .block footer {
-  justify-content: space-around;
+  margin-left: -10px;
+  overflow: hidden;
+  margin-top: auto;
+  /* justify-content: space-around; */
   background-color: rgb(64, 236, 110);
   /* align-items: flex-end; */
-  align-content: flex-end;
-  height: 100px;
-  width: 100%;
+  /* align-content: flex-end; */
+  height: 120px;
+  width: auto;
 }
 /* #taxes .calculator .block:nth-child(1) footer{
     margin-left: -5px;
@@ -137,45 +147,46 @@ background-color: aqua;
   list-style-type: none;
 }
 #features .features-items li:nth-child(even) {
-  background-color:rgb(216, 216, 216);
+  background-color: rgb(216, 216, 216);
   padding-right: 70px;
 }
 #features .features-items li:nth-child(odd) {
-    padding-right: 70px;
-    background-color:rgb(184, 182, 182);
+  padding-right: 70px;
+  background-color: rgb(184, 182, 182);
 }
 #features .features-items .item .text {
-    width: 700px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+  width: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
-#finances{
-    margin-top: 120px;
-    width: 1500px;
-    margin-left: auto;
+#finances {
+  margin-top: 120px;
+  width: 1500px;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 120px;
 }
-#finances .wrapper{
-color: grey;
-    display: flex;
-    justify-content: space-between;
+#finances .wrapper {
+  color: grey;
+  display: flex;
+  justify-content: space-between;
 }
-#finances .wrapper .finances-text{
-    width: 65%;
-    font-size: 18px;
-    width: 400;
+#finances .wrapper .finances-text {
+  width: 65%;
+  font-size: 18px;
+  width: 400;
 }
-#finances .wrapper img{
-    width: 30%;
+#finances .wrapper img {
+  width: 30%;
 }
-#finances .wrapper .title{
-    margin-bottom: 30px;
+#finances .wrapper .title {
+  margin-bottom: 30px;
 }
-footer{
-    height: 70px;
-    background-color: #54546d;
-    color: #717b9f;
-    text-align: center;
-    padding-top: 23px;}
+footer {
+  height: 70px;
+  background-color: #54546d;
+  color: #717b9f;
+  text-align: center;
+  padding-top: 23px;
+}
