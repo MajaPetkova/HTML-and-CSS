@@ -1,0 +1,105 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+:root {
+  --clr-green: #86d862;
+  --clr-bg:#f6f7f8 ;
+  --clr-blue:#05a2d3;
+  --clr-grey:#e0e0df;
+  --clr-black:#000;
+}
+
+html {
+  font-family: "Open Sans", serif;
+}
+label{
+font-weight: bolder;
+}
+#fitness {
+  margin: 40px auto;
+border: black solid 1px;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  border-radius: 30px;
+  box-shadow: 1px 12px 24px 1px rgba(0,0,0,0.75);
+}
+#fitness .img-fit {
+  width: 50%;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+#fitness .content {
+  width: 50%;
+  background-color: #f6f7f8;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  text-align: center;
+}
+#fitness .content .title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 12%;
+}
+#fitness .content .buttons{
+    display: flex;
+    justify-content: center;
+    gap:55px;
+    margin-bottom: 30px;
+
+}
+#fitness .content .buttons .but-standart{
+    border: 1px solid black;
+    background-color: var(--clr-green);
+    color: var(--clr-black);
+    border-radius: 10px;
+    width: 200px;
+    padding: 6px 20px;
+}
+#fitness .content .buttons .but-metric{
+    border: 1px solid black;
+    background-color: var(--clr-grey);
+    color: var(--clr-black);
+    border-radius: 10px;
+    width: 200px;
+    padding: 6px 20px;  
+}
+#fitness .content .gender{
+    padding-top: 30px;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#fitness .content .gender select{
+    width: 200px;
+}
+#fitness .content label{
+    margin-bottom: 30px;
+}
+#fitness .content .weight input{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#fitness .content .height{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    margin-bottom: 50px;
+}
+#fitness .content .height .h1{
+    width: 45%;
+}
+#fitness .content .height .h2{
+    width: 45%;
+}
+#fitness .content .btn{
+    width: 95%;
+    background-color: var(--clr-blue);
+    color: var(--clr-bg);
+    border-radius: 30px;
+    padding: 8px ;
+    font-weight: bold;
+}
